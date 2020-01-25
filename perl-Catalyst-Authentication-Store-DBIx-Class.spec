@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Catalyst
 %define	pnam	Authentication-Store-DBIx-Class
 Summary:	Catalyst::Authentication::Store::DBIx::Class - A storage class for Catalyst Authentication using DBIx::Class
